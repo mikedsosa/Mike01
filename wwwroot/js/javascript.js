@@ -1,10 +1,10 @@
-﻿function calculateGrade() {
+﻿$("#submitButton").click(function () {
     //first collect all variables from the input boxes on the html form
-    var iAssignmentsGrade = document.getElementById("assignments").value;
-    var iGroupProjectsGrade = document.getElementById("group_projects").value;
-    var iQuizzesGrade = document.getElementById("quizzes").value;
-    var iExamsGrade = document.getElementById("exams").value;
-    var iIntexGrade = document.getElementById("intex").value;
+    var iAssignmentsGrade = $("#assignments").val();
+    var iGroupProjectsGrade = $("#group_projects").val();
+    var iQuizzesGrade = $("#quizzes").val();
+    var iExamsGrade = $("#exams").val();
+    var iIntexGrade = $("#intex").val();
 
     //set up some blank variables to be used later on
     var iFinalGrade = 0;
@@ -17,5 +17,5 @@
     sOutput = ('From the grades you put in, you will end up with a ' + iFinalGrade + ' in the class');
 
     //write to html
-    document.getElementById('grade_output').innerHTML = sOutput;
-}
+    $('#grade_output').innerHTML = sOutput;
+});
