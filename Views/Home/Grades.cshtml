@@ -17,7 +17,7 @@
             <br />
 
             <label>Group Projects:</label>
-            <input id="group_projects" asp-for="group_projects"/>
+            <input id="group_projects" asp-for="group_projects" />
             <br />
 
             <label>Quizzes:</label>
@@ -34,6 +34,7 @@
             <br />
 
             <input type="button" value="Calculate my grade" onclick="calculateGrade()" />
+            <input type="text" onchange="handleChange(this);" />
         </form>
     </div>
 </body>
