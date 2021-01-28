@@ -9,14 +9,20 @@ namespace Mike01.Models
     public class GradesModel
     {
         [Required]
-        public string assignments { get; set; }
-        public string group_projects { get; set; }
-
-        public string quizzes { get; set; }
-
-        public string exams { get; set; }
-
-        public string intex { get; set; }
+        [Range(0, 100, ErrorMessage = "Must be between 0 and 100")]
+        public double assignments { get; set; }
+        [Required]
+        [Range(0, 100, ErrorMessage = "Must be between 0 and 100")]
+        public double group_projects { get; set; }
+        [Required]
+        [Range(0, 100, ErrorMessage = "Must be between 0 and 100")]
+        public double quizzes { get; set; }
+        [Required]
+        [Range(0, 100, ErrorMessage = "Must be between 0 and 100")]
+        public double exams { get; set; }
+        [Required]
+        [Range(0, 100, ErrorMessage = "Must be between 0 and 100")]
+        public double intex { get; set; }
 
     }
 }
