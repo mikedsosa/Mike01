@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mike01.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,16 @@ namespace Mike01.Controllers
         {
             return View();
         }
-
+        [HttpGet("Grades")]
         public IActionResult Grades()
         {
             return View();
+        }
+        [HttpPost("Grades")]
+        public IActionResult Grades(GradesModel model)
+        {
+            return View();
+
         }
     }
 }
