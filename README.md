@@ -1,6 +1,6 @@
 # Mike01
 
-This is my first dive into the ASP.NET Web Application area using Visual Studio.
+This is my first dive into the ASP.NET Web Application area using Visual Studio. It's a two part assignment.
 
 Below is our assignment description.
 
@@ -19,4 +19,17 @@ Style the site using a CSS file.  Level of styling is up to you, but only CSS fo
 
 Build a JavaScript program that calculates and displays both a final percentage and a letter grade using the "Grade Calculator" form entries based on the weights listed in the syllabus.
 
+As always, write good code (use indentation, commenting, whitespace, descriptive variable names, etc.)"
+
+"Convert the Web App you created in Assignment #1 to an MVC structure following the pattern in this week's videos.  Separate your Grade Calculator program into a second view and add navigation to access that page.  Create a model for your Grade Calculation form.
+
+Be sure to include:
+
+The basic jQuery selector ($) to select the elements in your JavaScript program.
+Appropriate folders for each element of MVC.
+A Controller to access the corresponding Views.
+Razor code to set the text in the header.
+A shared layout across all pages.
+Tag helpers for navigation.
+Validation in the model to ensure the user enters a number between 0 and 100 (#notcoveredinthevideos).
 As always, write good code (use indentation, commenting, whitespace, descriptive variable names, etc.)"
