@@ -1,6 +1,6 @@
 # Mike01
 
-This is our first dive into the ASP.NET Web Application area using Visual Studio.
+This is my first dive into the ASP.NET Web Application area using Visual Studio.
 
 Below is our assignment description.
 
