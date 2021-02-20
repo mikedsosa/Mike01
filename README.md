@@ -5,6 +5,7 @@ This is my first dive into the ASP.NET Web Application area using Visual Studio.
 Below is our assignment description.
 
 Part 1
+
 "Build an ASP.NET Web App using the same structure as in the "Building First Web App" series of videos. (i.e. Non-MVC)
 
 Include:
@@ -21,6 +22,7 @@ Style the site using a CSS file.  Level of styling is up to you, but only CSS fo
 Build a JavaScript program that calculates and displays both a final percentage and a letter grade using the "Grade Calculator" form entries based on the weights listed in the syllabus." 
 
 Part 2
+
 "Convert the Web App you created in Assignment #1 to an MVC structure following the pattern in this week's videos.  Separate your Grade Calculator program into a second view and add navigation to access that page.  Create a model for your Grade Calculation form.
 
 Be sure to include:
